@@ -1,0 +1,49 @@
+/* 
+
+CSS DOCUMENT
+------------
+Author: Sahibjot Saggu
+Date: August 25, 2014
+Filename: style.css
+
+ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #FFF;
+}
+
+#slider {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 500px;
+	background: #333;
+}
+
+#slider #left_arrow {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 100%;
+	background: transparent url("left_arrow.png") no-repeat center center;
+	background-size: 70%;
+	cursor: pointer;
+}
+
+#slider #right_arrow {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	height: 100%;
+	background: transparent url("right_arrow.png") no-repeat center center;
+	background-size: 70%;
+	cursor: pointer;
+}

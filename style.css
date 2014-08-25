@@ -17,33 +17,74 @@ body {
 	background: #FFF;
 }
 
-#slider {
+#left_arrow {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 500px;
+	background: transparent url("left_arrow.png") no-repeat center center;
+	background-size: 70%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#right_arrow {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 150px;
+	height: 500px;
+	background: transparent url("right_arrow.png") no-repeat center center;
+	background-size: 70%;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#slider #content1 {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 500px;
 	background: #333;
+	z-index: 0;
+	font-family: Segoe UI Light;
+	font-size: 70px;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
+	line-height: 500px;
 }
 
-#slider #left_arrow {
+#slider #content2 {
 	position: absolute;
 	top: 0px;
-	left: 0px;
-	width: 150px;
-	height: 100%;
-	background: transparent url("left_arrow.png") no-repeat center center;
-	background-size: 70%;
-	cursor: pointer;
+	left: 100%;
+	width: 100%;
+	height: 500px;
+	background: #222;
+	z-index: 0;
+	font-family: Segoe UI Light;
+	font-size: 70px;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
+	line-height: 500px;
 }
 
-#slider #right_arrow {
+#slider #content3 {
 	position: absolute;
 	top: 0px;
-	right: 0px;
-	width: 150px;
-	height: 100%;
-	background: transparent url("right_arrow.png") no-repeat center center;
-	background-size: 70%;
-	cursor: pointer;
+	left: 200%;
+	width: 100%;
+	height: 500px;
+	background: #111;
+	z-index: 0;
+	font-family: Segoe UI Light;
+	font-size: 70px;
+	font-weight: 300;
+	color: #FFF;
+	text-align: center;
+	line-height: 500px;
 }

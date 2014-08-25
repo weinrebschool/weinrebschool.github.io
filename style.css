@@ -15,6 +15,7 @@ Filename: style.css
 
 body {
 	background: #FFF;
+	overflow-x: hidden;
 }
 
 ul#navigation, ul.sub {
@@ -33,7 +34,7 @@ ul#navigation, ul.sub {
 }
 
 ul#navigation li {
-	width: 120px;
+	width: 100px;
 	position: relative;
 	float: left;
 }
@@ -41,7 +42,7 @@ ul#navigation li {
 ul#navigation a {
 	text-decoration: none;
 	display: block;
-	width: 120px;
+	width: 100px;
 	height: 40px;
 	line-height: 40px;	
 	text-align: center;
@@ -85,32 +86,6 @@ ul#navigation ul.sub li a {
 	line-height: 30px;
 }
 
-
-#left_arrow {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 150px;
-	height: 70%;
-	background: transparent url("left_arrow.png") no-repeat center center;
-	background-size: 70%;
-	cursor: pointer;
-	z-index: 2;
-}
-
-#right_arrow {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	width: 150px;
-	height: 70%;
-	background: transparent url("right_arrow.png") no-repeat center center;
-	background-size: 70%;
-	cursor: pointer;
-	z-index: 2;
-
-}
-
 #slideshow {
 	position: absolute;
 	top: 0%;
@@ -142,6 +117,21 @@ ul#navigation ul.sub li a {
 	width: 25%;
 	height: 100%;
 	background: url("pic2.jpg") no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 80px;
+	text-shadow: 0px 0px 3px #000;
+}
+
+#pic3 {
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 25%;
+	height: 100%;
+	background: url("pic3.jpg") no-repeat center center;
 	background-size: cover;
 	text-align: center;
 	color: #FFF;

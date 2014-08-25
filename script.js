@@ -34,4 +34,14 @@ Filename: script.js
 		animate_slideshow();
 	}
 
+	// clicking on the white bars during phone mode
+	$("#bars").click(function() {
+		if ($("#phone_nav").css("top") == "-200px") {
+			$("#phone_nav").css("top", "40px");
+		}
+
+		else {
+			$("#phone_nav").css("top", "-200px");
+		}
+	});
  });

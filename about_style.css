@@ -8,10 +8,10 @@ Filename: about_style.css
 
  */
 
- @font-face {
- 	font-family: Helvetica;
- 	src: url("HelveticaNeue-Thin.otf");
- }
+@font-face {
+	font-family: Helvetica;
+	src: url("HelveticaNeue-Thin.otf");
+}
 
  #about_banner {
  	position: absolute;
@@ -67,6 +67,7 @@ Filename: about_style.css
  	width: 300px;
  	text-align: left;
  	font-family: Arial;
+ 	font-size: 15px;
  	color: #000;
  	margin-left: 8.3px;
  }
@@ -114,6 +115,7 @@ Filename: about_style.css
 	top: 35px;
 	left: 172px;
 	font-family: Arial;
+	font-size: 15px;
 }
 
 #footer {

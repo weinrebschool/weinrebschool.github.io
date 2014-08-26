@@ -2,9 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Weinreb School</title>
+<title>Weinreb School | Commerical</title>
 <meta name=viewport content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="commercial.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 </head>
 
@@ -12,13 +13,13 @@
 	<div id="topnav">
 		<ul id="navigation">
 			<li id="first"><a href="index.html" id="first">Weinreb School</a></li>
-			<li><a href="theoretical.html">About</a></li>
-			<li><a href="practical.html">Our Progam</a>
+			<li><a href="about.html">About</a></li>
+			<li><a href="our_program.html">Our Program</a>
 				<ul class="sub">
-					<li><a href="overview.html">Overview</a></li>
+					<li><a href="overview.html">Our Philosophy</a></li>
 					<li><a href="theoretical.html">Theoretical</a></li>
 					<li><a href="practical.html">Practical</a></li>
-					<li><a href="commerical.html">Commercial</a></li>
+					<li><a href="commercial.html" class="onlink">Commercial</a></li>
 				</ul>
 			</li>
 			<li><a href="testimonials.html">Testimonials</a>
@@ -28,16 +29,46 @@
 	</div> <!-- end topnav div -->
 
 	<ul id="phone_nav">
-		<li><a href="theoretical.html">Theoretical</a></li>
+		<li><a href="theoretical.html" class="onlink">Theoretical</a></li>
 		<li><a href="practical.html">Practical</a></li>
-		<li><a href="commercial.html" class="onlink">Commerical</a>
+		<li><a href="commercial.html">Commerical</a>
 		<li><a href="about.html">About</a></li>
 		<li><a href="contact.html">Contact Us</a></li>
 	</ul>
 
 	<div id="banner3">
-		Commercial
+		<div id="banner_wrapper">
+			<h1>Commercial</h1>
+			<h3>Application of Theory and Practice</h3>
+		</div>
 	</div> <!-- end banner div -->
+	<div id="content">
+		<video controls poster="commercial_vidpic.png">
+			<source src="commercial_video.mp4" type="video/mp4">
+		</video>
+	</div> <!-- end content div -->
+
+	<div id="footer">
+		<div id="wrapper">
+			<h1 id="name">
+				Weinreb School
+			</h1>
+			<div id="hours_add">
+				<ul>
+					<li>Opening Hours
+						<p>Monday-Friday <span class="time">7:00am-10:00pm</span></p>
+						<p style="margin-top: 0px;">Saturday-Sunday <span class="time">7:00am-8:00pm</span></p>
+					</li>
+					<li id="last">Address
+						<p>Adath Israel</p>
+						<p style="margin-top: 0px;">37 Southbourne Avenue</p>
+						<p style="margin-top: 0px;">Toronto, Ontario M3H 1A4</p>
+						<p style="margin-top: 0px;">Tel: 416-899-1727</p>
+					</li>
+				</ul>
+			</div> <!-- end hours_add div -->
+		</div> <!-- end wrapper div -->
+	</div> <!-- end footer div -->		
 
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript" src="script.js"></script>	

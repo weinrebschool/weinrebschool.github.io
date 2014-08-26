@@ -14,10 +14,6 @@ Filename: script.js
  	$("#pic1").css("line-height", slide_height);
  	$("#pic2").css("line-height", slide_height);
  	$("#pic3").css("line-height", slide_height);
- 	$("#banner1").css("line-height", $("#banner1").css("height"));
-	$("#banner2").css("line-height", $("#banner2").css("height"));
-	$("#banner3").css("line-height", $("#banner3").css("height"));
-
 
  	// changing slideshow text line-height on resize
 	$(window).resize(function() {
@@ -25,9 +21,6 @@ Filename: script.js
 	 	$("#pic1").css("line-height", slide_height);
 	 	$("#pic2").css("line-height", slide_height);
 	 	$("#pic3").css("line-height", slide_height);
- 		$("#banner1").css("line-height", $("#banner1").css("height"));
-		$("#banner2").css("line-height", $("#banner2").css("height"));
-		$("#banner3").css("line-height", $("#banner3").css("height"));
 	}); 	
 
  	function animate_slideshow() {

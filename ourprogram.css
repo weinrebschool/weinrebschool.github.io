@@ -1,0 +1,103 @@
+/* 
+
+CSS DOCUMENT
+------------
+Author: Sahibjot Saggu
+Date: August 26, 2014
+Filename: ourprogram.css
+
+ */
+
+ @font-face {
+	font-family: Helvetica;
+	src: url("HelveticaNeue-Thin.otf");
+}
+
+#main_banner {
+	position: absolute;
+	top: 40px;
+	left: calc(50% - 462.5px);
+	width: 925px;
+	height: 200px;
+	background: url("ourprogram_child2.png") no-repeat center center;
+	background-size: cover;
+	font-family: Helvetica;
+	font-size: 80px;
+	text-align: center;
+	line-height: 200px;
+	color: #FFF;
+}
+
+#content {
+	position: absolute;
+	top: 275px;
+	left: calc(50% - 400px);
+	width: 800px;
+	height: 500px;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+#footer {
+	position: absolute;
+	top: 800px;
+	left: 0px;
+	width: 100%;
+	height: 168px;
+	background: #222;
+}
+
+#footer h1 {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	font-weight: normal;
+	font-family: Helvetica;
+	color: #FFF;
+}
+
+#footer #hours_add {
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+
+#footer #hours_add ul {
+	list-style-type: none;
+}
+
+#footer #hours_add ul li {
+	display: block;
+	float: left;
+	width: 250px;
+	height: 100px;
+	border-right: 2px solid #CCC;
+	text-indent: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #FFF;
+}
+
+#footer #hours_add ul li#last {
+	border-right: none;
+}
+
+#footer #hours_add ul li p {
+	font-family: Arial;
+	font-size: 12px;
+	text-indent: 30px;
+	color: #EEE;
+	margin-top: 10px;
+	text-align: left;
+}
+
+#footer #hours_add ul li p span.time {
+	color: #CCC;
+}
+
+#footer #wrapper {
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 462.5px);
+	width: 925px;
+}

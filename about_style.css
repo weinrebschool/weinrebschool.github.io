@@ -1,0 +1,75 @@
+/* 
+
+CSS DOCUMENT
+------------
+Author: Sahibjot Saggu
+Date: August 25, 2014
+Filename: about_style.css
+
+ */
+
+ @font-face {
+ 	font-family: Helvetica;
+ 	src: url("HelveticaNeue-Thin.otf");
+ }
+
+ #about_banner {
+ 	position: absolute;
+ 	top: 40px;
+ 	left: calc(50% - 462.5px);
+ 	width: 925px;
+ 	height: 200px;
+ 	background: url("about_pic.png");
+ 	background-position: 0px -1px;
+ 	font-family: Helvetica;
+ 	font-size: 80px;
+ 	text-align: center;
+ 	line-height: 200px;
+ 	color: #FFF;
+ }
+
+ #note_title {
+ 	position: absolute;
+ 	top: 250px;
+ 	left: calc(50% - 462.5px);/*308.3px;*/
+ 	width: 925px;
+ 	height: 225px;
+ }
+
+ #note_title ul#titles {
+ 	position: absolute;
+ 	top: 10px;
+ 	left: 0px;
+ 	list-style-type: none;
+ }
+
+ #note_title ul#titles li {
+ 	display: block;
+ 	float: left;
+ 	width: 308.3px;
+ 	text-align: left;
+ 	font-family: Helvetica;
+ 	color: #000;
+ 	font-size: 25px;
+ }
+
+ #note_title ul#notes {
+ 	position: absolute;
+ 	top: 50px;
+ 	left: 0px;
+ 	list-style-type: none;
+ }
+
+ #note_title ul#notes li {
+ 	display: block;
+ 	float: left;
+ 	width: 300px;
+ 	text-align: left;
+ 	font-family: Arial;
+ 	color: #000;
+ 	margin-left: 8.3px;
+ }
+
+ #note_title ul#notes li#first {
+ 	margin-left: 0px;
+ }

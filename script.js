@@ -21,6 +21,7 @@ Filename: script.js
 	 	$("#pic1").css("line-height", slide_height);
 	 	$("#pic2").css("line-height", slide_height);
 	 	$("#pic3").css("line-height", slide_height);
+	 	$("#lights").css("width", $(window).width());
 	}); 	
 
  	function animate_slideshow() {
@@ -35,12 +36,14 @@ Filename: script.js
 
 	// clicking on the white bars during phone mode
 	$("#bars").click(function() {
-		if ($("#phone_nav").css("top") == "-200px") {
+		if ($("#phone_nav").css("top") == "-240px") {
 			$("#phone_nav").css("top", "40px");
 		}
 
 		else {
-			$("#phone_nav").css("top", "-200px");
+			$("#phone_nav").css("top", "-240px");
 		}
 	});
+
+	$("#lights").css("width", $(window).width());
  });

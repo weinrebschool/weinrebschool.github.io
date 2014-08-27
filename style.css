@@ -634,7 +634,7 @@ ul#phone_nav a:hover {
 
 @media only screen and (min-width: 100px) {
 	body {
-		background: pink;
+		background: white;
 	}
 
 	ul#navigation, ul.sub {

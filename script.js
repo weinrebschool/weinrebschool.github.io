@@ -10,8 +10,6 @@ Filename: script.js
 
  $(document).ready(function() {
 
- 	$("#first1").html($(document).width());
-
  	$("#slideshow").css("width", $(window).width()* 4 + "px");
 
  	// change slideshow text line-height

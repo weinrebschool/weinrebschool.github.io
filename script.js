@@ -26,7 +26,6 @@ Filename: script.js
 	 	$("#pic2").css("line-height", slide_height);
 	 	$("#pic3").css("line-height", slide_height);
 	 	$("#lights").css("width", win_width);
-	 	$("#first1").html(win_width);
 	 	$("#slideshow").css("width", win_width * 4 + "px");
 	 	$("#slideshow").css("left", "0px"); 
 	}); 	

@@ -347,7 +347,7 @@ ul#phone_nav a:hover {
 	position: absolute;
 	top: 30px;
 	left: calc(50% - 100px);
-	width: 100%;
+	width: 200px;
 	height: 750px;
 }
 
@@ -434,8 +434,8 @@ ul#phone_nav a:hover {
 	-webkit-transition: background 0.5s;
 }
 
-#phone_light_buttons ul li a#first4, #phone_light_buttons ul li a#last3 {
-	margin-top: 400px;
+#phone_light_buttons ul li a#first4 {
+	margin-top: 380px;
 }
 
 #phone_lights, #phone_light_content, #phone_light_buttons {

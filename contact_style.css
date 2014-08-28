@@ -1,0 +1,29 @@
+ /* 
+
+CSS DOCUMENT
+------------
+Author: Sahibjot Saggu
+Date: August 25, 2014
+Filename: contact_style.css
+
+ */
+
+@font-face {
+	font-family: Helvetica;
+	src: url("HelveticaNeue-Thin.otf");
+}
+
+#contact_banner {
+	position: absolute;
+	top: 40px;
+	left: calc(50% - 462.5px);
+	width: 925px;
+	height: 200px;
+	background: url("contact_banner.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	font-size: 80px;
+	text-align: center;
+	line-height: 200px;
+	color: #FFF;
+}

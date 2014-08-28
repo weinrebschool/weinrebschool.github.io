@@ -20,7 +20,6 @@ Filename: style.css
 
 body {
 	background: #FFF;
-	overflow-x: hidden;
 }
 
 #topnav {
@@ -169,56 +168,35 @@ ul#phone_nav a:hover {
 	display: none;
 }
 
-#slideshow {
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	height: 70%;
+#slideshow { 
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    height: 70%; 
 }
 
-#pic1 {
+#pic1, #pic2, #pic3 {
 	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 25%;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 	height: 100%;
-	background: url("pic1.jpg") no-repeat center center;
+	background: #000 url("pic1.jpg") no-repeat center center;
 	background-size: cover;
 	text-align: center;
-	color: #FFF;
 	font-family: Arial;
 	font-size: 80px;
 	text-shadow: 0px 0px 3px #000;
+	color: #FFF;
 }
 
 #pic2 {
-	position: absolute;
-	top: 0%;
-	left: 25%;
-	width: 25%;
-	height: 100%;
-	background: url("pic2.jpg") no-repeat center center;
-	background-size: cover;
-	text-align: center;
-	color: #FFF;
-	font-family: Arial;
-	font-size: 80px;
-	text-shadow: 0px 0px 3px #000;
+	background-image: url("pic2.jpg");
 }
 
 #pic3 {
-	position: absolute;
-	top: 0%;
-	left: 50%;
-	width: 25%;
-	height: 100%;
-	background: url("pic3.jpg") no-repeat center center;
-	background-size: cover;
-	text-align: center;
-	color: #FFF;
-	font-family: Arial;
-	font-size: 80px;
-	text-shadow: 0px 0px 3px #000;
+	background-image: url("pic3.jpg");
 }
 
 #banner1, #banner2, #banner3 {

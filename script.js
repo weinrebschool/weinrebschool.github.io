@@ -10,7 +10,9 @@ Filename: script.js
 
  $(document).ready(function() {
 
- 	$("#first1").html($(window).width());
+ 	$("#first1").html($(document).width());
+
+ 	$("#slideshow").css("width", $(window).width()* 4 + "px");
 
  	// change slideshow text line-height
  	var slide_height = $("#pic1").css("height");
@@ -20,11 +22,15 @@ Filename: script.js
 
  	// changing slideshow text line-height on resize
 	$(window).resize(function() {
-		 var slide_height = $("#pic1").css("height");
+		var slide_height = $("#pic1").css("height");
+		var win_width = $(window).width();
 	 	$("#pic1").css("line-height", slide_height);
 	 	$("#pic2").css("line-height", slide_height);
 	 	$("#pic3").css("line-height", slide_height);
-	 	$("#lights").css("width", $(window).width());
+	 	$("#lights").css("width", win_width);
+	 	$("#first1").html(win_width);
+	 	$("#slideshow").css("width", win_width * 4 + "px");
+	 	$("#slideshow").css("left", "0px"); 
 	}); 	
 
  	function animate_slideshow() {

@@ -129,7 +129,7 @@ Filename: ourprogram.css
 	#content {
 		width: 90%;
 		left: 5%;
-		height: 840px;
+		height: auto;
 	}
 
 	#footer {
@@ -139,12 +139,12 @@ Filename: ourprogram.css
 
 @media only screen and (min-width: 600px) {
 	body {
-		background: #333;
+		background: white;
 	}
 
 	#content {
-		width: 100%;
-		left: 0px;
+		width: 90%;
+		left: 5%;
 	}
 }
 
@@ -178,7 +178,36 @@ Filename: ourprogram.css
 }
 
 @media only screen and (min-width: 1200px) {
-		body {
+	body {
 		background: #FFF;
 	}
+
+	#main_banner {
+		position: absolute;
+		top: 40px;
+		left: calc(50% - 462.5px);
+		width: 925px;
+		height: 200px;
+		background: url("ourprogram_child2.png") no-repeat center center;
+		background-size: cover;
+		font-family: Helvetica;
+		font-size: 80px;
+		text-align: center;
+		line-height: 200px;
+		color: #FFF;
+	}
+
+	#content {
+		position: absolute;
+		top: 260px;
+		left: calc(50% - 400px);
+		width: 800px;
+		height: auto;
+		font-family: Arial;
+		font-size: 15px;
+	}
+
+	#footer {
+		display: block;
+	}	
 }

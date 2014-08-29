@@ -345,7 +345,7 @@ ul#phone_nav a:hover {
 
 #phone_lights {
 	position: absolute;
-	top: 30px;
+	top: 20px;
 	left: calc(50% - 100px);
 	width: 200px;
 	height: 750px;

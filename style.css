@@ -620,6 +620,10 @@ table#points tr td#filler {
 		top: 1200px;
 	}
 
+	#phone_footer h1 {
+		font-size: 25px;
+	}
+
 }
 
 @media only screen and (min-width: 480px) {

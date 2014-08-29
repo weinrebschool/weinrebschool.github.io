@@ -99,7 +99,7 @@ ul#navigation ul.sub {
 ul#navigation li:hover ul.sub {
 	display: block;
 	margin-top: 0px;
-}	
+}
 
 ul#navigation ul.sub li a {
 	width: 150px;

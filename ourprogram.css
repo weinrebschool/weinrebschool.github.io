@@ -129,6 +129,7 @@ Filename: ourprogram.css
 	#content {
 		width: 90%;
 		left: 5%;
+		height: 840px;
 	}
 
 	#footer {

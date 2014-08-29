@@ -343,109 +343,71 @@ ul#phone_nav a:hover {
 	background: #CCC;
 }
 
-#phone_lights {
+table#points {
 	position: absolute;
-	top: 20px;
+	top: 25px;
 	left: calc(50% - 100px);
 	width: 200px;
-	height: 750px;
 }
 
-#phone_lights ul {
-	width: 200px;
-	height: auto;
-	list-style-type: none;
+table#points tr td:nth-child(1) {
+	margin-top: 20px;
 }
 
-#phone_lights ul li {
+table#points tr td#pic div {
 	width: 150px;
 	height: 150px;
-	border-radius: 75px;
+	text-align: center;
 	background: #EEE url("lightbulb.png") no-repeat center center;
-	text-align: center;
-	line-height: 350px;
-	margin-top: 275px;
+	border-radius: 75px;
 	margin-left: 25px;
-	font-size: 30px;
-	font-family: Helvetica;
 }
 
-#phone_lights ul li#first2 {
-	margin-top: 0px;
-}
-
-
-#phone_light_content {
-	position: absolute;
-	top: 225px;
-	left: calc(50% - 100px);
-	width: 200px;
-}
-
-#phone_light_content ul {
-	width: 200px;
-	height: auto;
-	list-style-type: none;
-}
-
-#phone_light_content ul li {
-	font-family: Arial;
-	font-size: 15px;
-	text-align: center;
-}
-
-#phone_light_content ul li#first3 {
-	margin-top: 0px;
-}
-
-#phone_light_content ul li#second2 {
-	margin-top: 280px;
-}
-
-#phone_light_content ul li#last2 {
-	margin-top: 270px;
-}
-
-#phone_light_buttons {
-	position: absolute;
-	top: 0px;
-	left: calc(50% - 100px);
-	width: 200px;
-}
-
-#phone_light_buttons ul {
-	width: 200px;
-	height: auto;
-	list-style-type: none;
-}
-
-#phone_light_buttons ul li a {
-	display: block;
-	width: 150px;
+table#points tr td#title {
 	height: 40px;
 	text-align: center;
-	margin-left: 25px;
-	margin-top: 410px;
-	text-decoration: none;
-	color: #000;
-	background: #EEE;
+	font-family: Helvetica;
+	font-size: 30px;
+}
+
+table#points tr td#cont {
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+table#points tr td#butt {
+	height: 60px;
+}
+
+table#points tr td#butt a {
+	height: 40px;
+	width: 150px;
+	display: block;
+	text-align: center;
 	line-height: 40px;
+	margin-left: 25px;
+	background: #EEE;
 	border-radius: 3px;
 	font-family: Arial;
-	-webkit-transition: background 0.5s;
+	text-decoration: none;
+	color: #000;
+	-webkit-transition: background 0.2s;
 }
 
-#phone_light_buttons ul li a#first4 {
-	margin-top: 380px;
+table#points tr td#butt a:hover {
+	background: #CCC;
 }
 
-#phone_lights, #phone_light_content, #phone_light_buttons {
-	display: none;
+table#points tr td#filler {
+	height: 30px;
 }
 
 #phone_less_wrapper {
 	position: absolute;
-	top: 1300px;
+	top: 1350px;
 	left: 0px;
 	width: 100%;
 	height: 150px;
@@ -465,13 +427,13 @@ ul#phone_nav a:hover {
 
 #phone_free_call {
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	width: 100%;
 	height: 100px;
 	background: #EEE;
 	text-align: center;
 	font-family: Helvetica;
-	font-size: 25px;
+	font-size: 22px;
 }
 
 #phone_free_call span.number2 {
@@ -650,7 +612,7 @@ ul#phone_nav a:hover {
 		display: none;
 	}
 
-	#phone_lights, #phone_light_content, #phone_light_buttons, #phone_less_wrapper, #phone_free_call, #phone_footer {
+	table#points, #phone_less_wrapper, #phone_free_call, #phone_footer {
 		display: block;
 	}
 
@@ -704,7 +666,7 @@ ul#phone_nav a:hover {
 		display: block;
 	}
 
-	#phone_lights, #phone_light_content, #phone_light_buttons, #phone_less_wrapper, #phone_free_call, #phone_footer {
+	table#points, #phone_less_wrapper, #phone_free_call, #phone_footer {
 		display: none;
 	}
 
@@ -751,7 +713,7 @@ ul#phone_nav a:hover {
 		display: block;
 	}
 
-	#phone_lights, #phone_light_content, #phone_light_buttons, #phone_less_wrapper, #phone_free_call, #phone_footer {
+	table#points, #phone_less_wrapper, #phone_free_call, #phone_footer {
 		display: none;
 	}
 
@@ -798,7 +760,7 @@ ul#phone_nav a:hover {
 		display: block;
 	}
 
-	#phone_lights, #phone_light_content, #phone_light_buttons, #phone_less_wrapper, #phone_free_call, #phone_footer {
+	table#points, #phone_less_wrapper, #phone_free_call, #phone_footer {
 		display: none;
 	}
 

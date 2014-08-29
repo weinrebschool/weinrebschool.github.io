@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Homepage Table Testing</title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+
+			@font-face {
+				font-family: Helvetica;
+				src: url("HelveticaNeue-Thin.otf")
+			}
+
+			table#points {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				width: 200px;
+			}
+
+			table#points tr td:nth-child(1) {
+				margin-top: 20px;
+			}
+
+			table#points tr td#pic div {
+				width: 150px;
+				height: 150px;
+				text-align: center;
+				background: #EEE url("lightbulb.png") no-repeat center center;
+				border-radius: 75px;
+				margin-left: 25px;
+			}
+
+			table#points tr td#title {
+				height: 40px;
+				text-align: center;
+				font-family: Helvetica;
+				font-size: 30px;
+			}
+
+			table#points tr td#cont {
+				width: 200px;
+				height: 150px;
+				text-align: center;
+				font-family: Arial;
+				font-size: 15px;
+			}
+
+			table#points tr td#butt {
+				height: 60px;
+			}
+
+			table#points tr td#butt a {
+				height: 40px;
+				width: 150px;
+				display: block;
+				text-align: center;
+				line-height: 40px;
+				margin-left: 25px;
+				background: #EEE;
+				border-radius: 3px;
+				font-family: Arial;
+				text-decoration: none;
+				color: #000;
+				-webkit-transition: background 0.2s;
+			}
+
+			table#points tr td#butt a:hover {
+				background: #CCC;
+			}
+
+			table#points tr td#filler {
+				height: 30px;
+			}
+
+
+		</style>
+	</head>
+	<body>
+		<table border="0" id="points">
+			<tr>
+				<td id="pic"><div></div></td>
+			</tr>
+			<tr>
+				<td id="title">Theoretical</td>
+			</tr>
+			<tr>
+				<td id="cont">Having a good foundation of understanding allows for students to understand and learn what they are taught. They first step is to ensure the student has an excellent foundation by teaching the principlaes of mathematics.</td>
+			</tr>
+			<tr>
+				<td id="butt" valign="bottom"><a href="#">View Details</a></td>
+			</tr>
+
+			<tr>
+				<td id="filler"></td>
+			</tr>
+
+			<tr>
+				<td id="pic"><div></div></td>
+			</tr>
+			<tr>
+				<td id="title">Practical</td>
+			</tr>
+			<tr>
+				<td id="cont">After building an excellent foundation, they can continue onto the practical application of what they have learnt. During this stage students will also learn more concepts to benefit them in the near future such as budgeting and understanding currency.</td>
+			</tr>
+			<tr>
+				<td id="butt"><a href="#">View Details</a></td>
+			</tr>
+
+			<tr>
+				<td id="filler"></td>
+			</tr>			
+
+			<tr>
+				<td id="pic"><div></div></td>
+			</tr>
+			<tr>
+				<td id="title">Commercial</td>
+			</tr>
+			<tr>
+				<td id="cont">After learning the basics and understanding the applications of everything combined, the student can now commercialize. Students have proven to start applying their understanding to tasks in the finance, medicine, and engineering industries.</td>
+			</tr>
+			<tr>
+				<td id="butt"><a href="#">View Details</a></td>
+			</tr>				
+		</table>
+	</body>
+</html>
